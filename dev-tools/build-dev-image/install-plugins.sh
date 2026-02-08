@@ -10,7 +10,7 @@ old_category_object="id: 'opensearch',/{
 for plugin in $plugins; do
   cd $base_path_plugins
   if [[ $plugin =~ wazuh* ]]; then
-    # Clone the Wazuh security plugin
+    # Clone the BOSSS XDR security plugin
     if [[ $plugin == "wazuh-security-dashboards-plugin" ]]; then
       git clone --depth 1 --branch ${WAZUH_DASHBOARD_SECURITY_BRANCH} https://github.com/wazuh/$plugin.git
     fi

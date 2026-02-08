@@ -54,7 +54,7 @@ export const CallOuts = () => {
             Some of these settings may be undocumented, unsupported or experimental.
             If a field has a default value, blanking the field will reset it to its default which may be
             unacceptable given other configuration directives.
-            Deleting a custom setting will permanently remove it from Wazuh Dashboard's config."
+            Deleting a custom setting will permanently remove it from BOSSS XDR Dashboard's config."
           />
         </p>
       </EuiCallOut>

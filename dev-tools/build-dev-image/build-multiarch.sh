@@ -20,11 +20,11 @@ Usage: $0 [OPTIONS]
 OPTIONS:
     -n, --node-version              Node.js version (default: $NODE_VERSION)
     -o, --opensearch-version        OpenSearch Dashboard version (default: $OPENSEARCH_DASHBOARD_VERSION)
-    -w, --wazuh-branch              Wazuh Dashboard branch (default: $WAZUH_DASHBOARD_BRANCH)
-    -s, --security-branch           Wazuh Dashboard Security branch (default: $WAZUH_DASHBOARD_SECURITY_BRANCH)
-    -r, --reporting-branch          Wazuh Dashboard Reporting branch (default: $WAZUH_DASHBOARD_REPORTING_BRANCH)
-    -p, --plugins-branch            Wazuh Dashboard Plugins branch (default: $WAZUH_DASHBOARD_PLUGINS_BRANCH)
-    -sa, --security-analytics-branch  Wazuh Dashboard Security Analytics branch (default: $WAZUH_DASHBOARD_SECURITY_ANALYTICS_BRANCH)
+    -w, --wazuh-branch              BOSSS XDR Dashboard branch (default: $WAZUH_DASHBOARD_BRANCH)
+    -s, --security-branch           BOSSS XDR Dashboard Security branch (default: $WAZUH_DASHBOARD_SECURITY_BRANCH)
+    -r, --reporting-branch          BOSSS XDR Dashboard Reporting branch (default: $WAZUH_DASHBOARD_REPORTING_BRANCH)
+    -p, --plugins-branch            BOSSS XDR Dashboard Plugins branch (default: $WAZUH_DASHBOARD_PLUGINS_BRANCH)
+    -sa, --security-analytics-branch  BOSSS XDR Dashboard Security Analytics branch (default: $WAZUH_DASHBOARD_SECURITY_ANALYTICS_BRANCH)
     -t, --tag                       Image tag (default: $TAG)
     -pl, --platform                 Target platform (default: $PLATFORM)
     --push                          Push image to registry
@@ -96,7 +96,7 @@ done
 echo "=== Build Configuration ==="
 echo "Node Version: $NODE_VERSION"
 echo "OpenSearch Dashboard Version: $OPENSEARCH_DASHBOARD_VERSION"
-echo "Wazuh Dashboard Branch: $WAZUH_DASHBOARD_BRANCH"
+echo "BOSSS XDR Dashboard Branch: $WAZUH_DASHBOARD_BRANCH"
 echo "Security Branch: $WAZUH_DASHBOARD_SECURITY_BRANCH"
 echo "Reporting Branch: $WAZUH_DASHBOARD_REPORTING_BRANCH"
 echo "Plugins Branch: $WAZUH_DASHBOARD_PLUGINS_BRANCH"

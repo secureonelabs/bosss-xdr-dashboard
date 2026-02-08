@@ -146,7 +146,7 @@ help() {
   echo
   echo "Usage: $0 [OPTIONS]"
   echo
-  echo "    -p, --package <path>       Set Wazuh Dashboard rpm package name,which has to be in the <repository>/dev-tools/test-packages/<DISTRIBUTION>/ folder."
+  echo "    -p, --package <path>       Set BOSSS XDR Dashboard rpm package name,which has to be in the <repository>/dev-tools/test-packages/<DISTRIBUTION>/ folder."
   echo
   exit $1
 }

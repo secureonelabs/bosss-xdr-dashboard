@@ -13,7 +13,7 @@ All notable changes to the Wazuh app project will be documented in this file.
 
 ### Removed
 
-- Removed creation of /usr/lib/.build-id/\* links to prevent conflicts when installing Wazuh Dashboard alongside OpenSearch Dashboards on the same system
+- Removed creation of /usr/lib/.build-id/\* links to prevent conflicts when installing BOSSS XDR Dashboard alongside OpenSearch Dashboards on the same system
 
 ### Changed
 
@@ -71,7 +71,7 @@ All notable changes to the Wazuh app project will be documented in this file.
 
 ### Changed
 
-- Reduced default session and cookie expiration to 15 minutes for the Wazuh security plugin [#749](https://github.com/wazuh/wazuh-dashboard/issues/749) [#321](https://github.com/wazuh/wazuh-security-dashboards-plugin/pull/321)
+- Reduced default session and cookie expiration to 15 minutes for the BOSSS XDR security plugin [#749](https://github.com/wazuh/wazuh-dashboard/issues/749) [#321](https://github.com/wazuh/wazuh-security-dashboards-plugin/pull/321)
 
 ## Wazuh dashboard v4.12.0 - OpenSearch Dashboards 2.19.1 - Revision 03
 

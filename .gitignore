@@ -91,3 +91,6 @@ snapshots.js
 /dev-tools/build-packages/base-packages-to-base/packages
 
 *.zip
+
+# Rebranding script output
+REBRAND_REPORT.json

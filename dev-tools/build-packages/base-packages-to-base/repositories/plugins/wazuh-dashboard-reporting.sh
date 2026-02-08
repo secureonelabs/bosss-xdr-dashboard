@@ -1,4 +1,4 @@
-# Clone the Wazuh security plugin
+# Clone the BOSSS XDR security plugin
 source /usr/local/lib/wazuh/run-with-retry.sh
 
 cd /home/node/app/plugins
