@@ -1,41 +1,31 @@
-<div style="text-align:center">
-    <img src="https://wazuh.com/uploads/2022/05/Logo-blogpost.png"/>
-</div>
+<p align="center">
+    <img width="640px" src="logo.png" alt="BOSSS XDR Dashboard"/>
+</p>
 
-- [Welcome!](#welcome)
+# BOSSS XDR Dashboard
+
+> Based on [Wazuh Dashboard](https://github.com/wazuh/wazuh-dashboard), a fork of [OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards).
+
+- [Welcome](#welcome)
 - [Project Resources](#project-resources)
-- [Wazuh UI](#wazuh-ui)
+- [BOSSS XDR UI](#bosss-xdr-ui)
 - [License](#license)
 - [Copyright](#copyright)
 
 ## Welcome
 
-Wazuh dashboard is a fork of the [OpenSearch Dashboards][opensearch-dashboards] which
-incorporate changes to make it easier to use for Wazuh users. Our aim is to contribute
-back any work not tied specifically to Wazuh.
-
-Wazuh is a security detection, visibility, and compliance open-source project. Wazuh
-helps you to gain deeper security visibility into your infrastructure by monitoring
-hosts at an operating system and application level.
-
-You can learn more about it at [wazuh.com][wazuh-web].
+BOSSS XDR Dashboard is the web interface for the BOSSS XDR platform, providing security detection, visibility, and compliance monitoring capabilities. It is a fork of OpenSearch Dashboards with changes to integrate seamlessly with the BOSSS XDR ecosystem.
 
 ## Project Resources
 
-- [Project Website][wazuh-web]
-- [Documentation][wazuh-docs]
-- Need help? Joins us on [Slack][slack-invite]!
+- [Documentation](https://documentation.wazuh.com)
 - [Developer Guide](DEVELOPER_GUIDE.md)
 - [Contributing](CONTRIBUTING.md)
-- [Maintainer Responsibilities](MAINTAINERS.md)
-- [Release Management](RELEASING.md)
-- [Testing](TESTING.md)
 - [Security](SECURITY.md)
 
-## Wazuh UI
+## BOSSS XDR UI
 
-This repository is not a new Wazuh UI, but the platform on which Wazuh UI will run.
-The UI can be found on its own [repository][wazuh-plugin].
+This repository is the platform on which the BOSSS XDR UI runs. The UI plugins can be found in the [bosss-xdr-dashboard-plugins](https://github.com/secureonelabs/bosss-xdr-dashboard-plugins) repository.
 
 ## License
 
@@ -46,10 +36,6 @@ This project is licensed under the [Apache v2.0 License](LICENSE.txt).
 - Copyright OpenSearch Contributors. See [NOTICE](NOTICE.txt) for details.
 - Copyright SecureOneLabs
 
-<!-- Links -->
+## Attribution
 
-[opensearch-dashboards]: https://github.com/opensearch-project/OpenSearch-Dashboards
-[wazuh-plugin]: https://github.com/wazuh/wazuh-kibana-app
-[wazuh-web]: https://wazuh.com
-[wazuh-docs]: https://documentation.wazuh.com
-[slack-invite]: https://join.slack.com/t/wazuh/shared_invite/zt-1lgu531ur-7M_k_ZQbpdo4QCn_pHee3w
+This project is based on [Wazuh Dashboard](https://github.com/wazuh/wazuh-dashboard). See [ATTRIBUTION.md](ATTRIBUTION.md) for details.
